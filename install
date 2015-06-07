@@ -1,0 +1,5 @@
+#!/bin/bash
+
+  cp -rf run_apache_foreground /etc/httpd/
+  chmod +x /etc/httpd/run_apache_foreground
+  rm -rf ../run-apache-foreground
